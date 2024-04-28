@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/account-login/account-login",
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/goods-detail-buy/goods-detail-buy",
+    "pages/cart/cart",
+    "pages/input-order/input-order",
+    "pages/alipay-page/alipay-page",
+    "pages/done-order/done-order",
+    "pages/setting-page/setting-page",
+    "pages/my-order/my-order",
+    "pages/setUser/setUser",
+    "pages/buylist/buylist",
+    "pages/liuyan/liuyan",
+    "pages/mymessage/mymessage",
+    "pages/jiedanzi/jiedanzi"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#333",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/home-no.png",
+        "selectedIconPath": "static/tabbar/home.png",
+        "text": "Home"
+      },
+      {
+        "pagePath": "pages/buylist/buylist",
+        "iconPath": "static/tabbar/study-no.png",
+        "selectedIconPath": "static/tabbar/study.png",
+        "text": "Order"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/tabbar/study-no.png",
+        "selectedIconPath": "static/tabbar/study.png",
+        "text": "Cart"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/static/tabbar/mine-no.png",
+        "selectedIconPath": "static/tabbar/mine.png",
+        "text": "My"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,204 @@
+{
+	"easycom": {
+	        // 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
+	        // 下载安装方式
+	        "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	        // npm安装方式
+	        // "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	    },
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		
+		{
+		    "path" : "pages/account-login/account-login",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "navigationStyle":"custom"
+		    }
+		    
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Takeout"                 
+				
+			}
+		}
+        ,{
+            "path" : "pages/mine/mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods-detail-buy/goods-detail-buy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Goods details",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+			
+            }
+            
+        }
+        ,{
+            "path" : "pages/input-order/input-order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Write order",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/alipay-page/alipay-page",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Alipay payment",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+
+        ,{
+            "path" : "pages/done-order/done-order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Finish order",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting-page/setting-page",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Set",
+                "enablePullDownRefresh": false
+			
+            }
+            
+        }
+        ,{
+            "path" : "pages/my-order/my-order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "My order",
+                "enablePullDownRefresh": false
+			
+            }
+            
+        }
+        ,{
+            "path" : "pages/setUser/setUser",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Complete data",
+                "enablePullDownRefresh": false
+            }
+            
+        }   
+        ,{
+            "path" : "pages/buylist/buylist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/liuyan/liuyan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mymessage/mymessage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/jiedanzi/jiedanzi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Get order",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/type/type",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Shop data",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/history/history",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "History order",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#7A7E83",
+		"selectedColor":"#333",
+		"borderStyle":"black",
+		"backgroundColor":"#FFFFFF",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/tabbar/home-no.png",
+				"selectedIconPath":"static/tabbar/home.png",
+				"text":"Home"
+			},
+			{
+				"pagePath":"pages/mine/mine",
+				"iconPath":"/static/tabbar/mine-no.png",
+				"selectedIconPath":"static/tabbar/mine.png",
+				"text":"MY"
+			}
+		]
+	}
+}
